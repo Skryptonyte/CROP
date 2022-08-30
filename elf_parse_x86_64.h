@@ -50,5 +50,5 @@ struct elf_section_header_x86_64
     uint64_t sh_entsize;
 };
 
-void parse_section_headers(FILE* f, uint64_t e_shoff, uint16_t e_shnum);
+void parse_section_headers(FILE* f, struct elf_header_x86_64* elfheader);
 void parse_elf(char* filename);
