@@ -6,7 +6,7 @@ Only x86_64 ELF binaries are supported presently.
 
 ## Usage
 
-./crop <executable>
+` ./crop <executable> `
 
 ## Requirements
 
